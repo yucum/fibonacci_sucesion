@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 public class FibonacciTest {
     @Test
     public void pruebaFibonacci() {
-        // Pruebas para los primeros números de Fibonacci
+        // Pruebas para los primeros números de Fibonacci.
         assertEquals(0, Fibonacci.calcular(0));
         assertEquals(1, Fibonacci.calcular(1));
         assertEquals(1, Fibonacci.calcular(2));
